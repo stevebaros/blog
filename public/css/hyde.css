@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI Condensed','Segoe UI','Segoe WP','PT Sans',Tahoma,Arial,sans-serif;
 }
 @media (min-width: 48rem) {
   html {
