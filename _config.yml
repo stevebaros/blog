@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+#markdown:         kramdown
+#highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -20,15 +20,43 @@ paginate:          2
 #bing_seo:		     'ECA8D4503D79297E7BB223666F18CAF8'
 #emailme:          mailto:lqian8@jhu.edu
 
-gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
-
 github:
-  repo:           https://github.com/RicardoNiepel/qian256.github.io
+  repo:           https://github.com/RicardoNiepel/ricardoniepel.github.io
 
 tags:
 
+twitter_username:   RicardoNiepel
 github_username:    RicardoNiepel
 linkedin_username:  ricardo-niepel-623a7261
-twitter_username:   RicardoNiepel
+xing_username:      Ricardo_Niepel
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  #syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+   # css_class: 'highlight'
 
 
+# Set the Sass partials directory, as we're using @imports
+#sass:
+  #style: :expanded # You might prefer to minify using :compressed
+
+
+# Use the following plug-ins
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
