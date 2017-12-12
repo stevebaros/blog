@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: "Tag: Event Hub"
-tag: Event-Hub
+tag: event-hub
 robots: noindex
 ---
