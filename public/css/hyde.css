@@ -31,9 +31,10 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
+html, .paginatio {
   font-family: 'Segoe UI Condensed','Segoe UI','Segoe WP','PT Sans',Tahoma,Arial,sans-serif;
 }
+
 @media (min-width: 48rem) {
   html {
     font-size: 16px;
@@ -96,6 +97,14 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+}
+
+.sidebar-footer {
+  font-size: 0.8em;
+}
+
+.sidebar .sidebar-footer a {
+  color: rgba(255,255,255,.5);
 }
 
 /* About section */

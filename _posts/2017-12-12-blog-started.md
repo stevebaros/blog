@@ -2,7 +2,7 @@
 layout: post
 title: Blog started
 description: A long time ago...
-tags: 
+tags: general
 ---
 
 A long time ago I already had a blog but then I decided to focus on twitter and internal community stuff.
@@ -15,6 +15,7 @@ Regarding Azure Application Development, I will focus on
 * Cloud Application Architectures & Design
 * Microservices
 * Serverless
+
 or from a more product oriented view
 * App Service
 * Functions
@@ -24,4 +25,5 @@ or from a more product oriented view
 * Event Hubs
 * Service Bus
 * Event Grid
+
 and we will see what's coming next.

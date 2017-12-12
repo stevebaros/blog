@@ -79,16 +79,6 @@ a:focus {
   text-decoration: none;
 }
 
-h1, h2, h1 a, h2 a:lang(zh) {
-  font-family: "PT Sans", "cwTeXMing", serif;
-}
-h3, h4, h5, h6, p, table, img, a, ul, li:lang(zh) {
-  font-family: "PT Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-}
-blockquote p:lang(zh){
-  font-family: "PT Sans", "STKaiti", "Kaiti", "cwTeXKai", "Microsoft YaHei", sans-serif;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
