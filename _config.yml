@@ -6,29 +6,29 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Long Qian
-tagline:          'Long Qian'
-description:      'Reality augmented.<br>My personal blog of tech and life.'
-url:              http://longqian.me/
+title:            Azure Development
+tagline:          'Ricardo Niepel'
+description:      'Ricardo Niepel<br>My personal blog about Azure Application Development topics.'
+url:              http://azure-development.com/
 
 author:
-  name:           'Long Qian'
-  url:            http://longqian.me/
+  name:           'Ricardo Niepel'
+  url:            http://azure-development.com/
 
 paginate:         2
-google_analytics: 'UA-91425204-3'
-bing_seo:		  'ECA8D4503D79297E7BB223666F18CAF8'
-emailme:          mailto:lqian8@jhu.edu
+#google_analytics: 'UA-91425204-3'
+#bing_seo:		      'ECA8D4503D79297E7BB223666F18CAF8'
+#emailme:          mailto:lqian8@jhu.edu
 
 gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 github:
-  repo:           https://github.com/qian256/qian256.github.io/
+  repo:           https://github.com/RicardoNiepel/qian256.github.io
 
 tags:
 
-github_username:  qian256
-facebook_username: joe.qian
-linkedin_username: long-qian
+github_username:    RicardoNiepel
+linkedin_username:  ricardo-niepel-623a7261
+# twitter: RicardoNiepel
 
 
