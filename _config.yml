@@ -8,16 +8,16 @@ permalink:        pretty
 # Setup
 title:            Azure Development
 tagline:          'Ricardo Niepel'
-description:      'Ricardo Niepel<br>My personal blog about Azure Application Development topics.'
+description:      'Ricardo Niepel's personal blog about<br>Azure Application Development topics'
 url:              http://azure-development.com/
 
 author:
   name:           'Ricardo Niepel'
   url:            http://azure-development.com/
 
-paginate:         2
+paginate:          2
 #google_analytics: 'UA-91425204-3'
-#bing_seo:		      'ECA8D4503D79297E7BB223666F18CAF8'
+#bing_seo:		     'ECA8D4503D79297E7BB223666F18CAF8'
 #emailme:          mailto:lqian8@jhu.edu
 
 gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
@@ -29,6 +29,6 @@ tags:
 
 github_username:    RicardoNiepel
 linkedin_username:  ricardo-niepel-623a7261
-# twitter: RicardoNiepel
+twitter_username:   RicardoNiepel
 
 

@@ -60,7 +60,7 @@ html {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #0072c6;
 }
 @media (min-width: 48rem) {
   .sidebar {
@@ -102,7 +102,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: 'Average', serif;
+  /*font-family: 'Average', serif;*/
   font-weight: bold;
   font-size: 3.25rem;
 }
