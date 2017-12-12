@@ -2,7 +2,7 @@
 layout: post
 title: First Post
 description: Augmented World EXPO 2017 was held in Santa Clara, with 4700 attendee, 351 speakers, 212 exhibitors. AWE is the largest industrial exhibition in the field of Augmented Reality. Some Virtual Reality players attend the conference too. As the concept of AR getting more and more popular, it is time to check out how these concepts come to life. In this post, I will share some of the highlights that I saw during the EXPO.   
-tags: event-hub
+tags: azure-active-directory
 ---
 
 <p class="full-width">
