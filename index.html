@@ -39,6 +39,9 @@ title: Home
   {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}  
   {% for post in paginator.posts %}
     {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+    
+    {{ now }}<br/>{{ date }}
+
     {% if date > now %}
     
       {% if post.lang %}
