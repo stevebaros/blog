@@ -42,7 +42,7 @@ title: Home
     
     {{ now }}<br/>{{ date }}
 
-    {% if date > now %}
+    {% if date <= now %}
     
       {% if post.lang %}
       <div class="post" lang="{{post.lang}}">
