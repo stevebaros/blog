@@ -18,10 +18,10 @@ author:
 paginate:          2
 #google_analytics: 'UA-91425204-3'
 #bing_seo:		     'ECA8D4503D79297E7BB223666F18CAF8'
-#emailme:          mailto:lqian8@jhu.edu
+emailme:            https://twitter.com/RicardoNiepel
 
 github:
-  repo:           https://github.com/RicardoNiepel/ricardoniepel.github.io
+  repo:             https://github.com/RicardoNiepel/ricardoniepel.github.io
 
 tags:
 
