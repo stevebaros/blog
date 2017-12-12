@@ -48,7 +48,7 @@ Syntax highlighting can be used with triple backticks, like so:
 var rawr = ["r", "a", "w", "r"];
 ```
 
-```CSharp
+```cs
 using System;
 using System.Collections.Generic;
 using System.Linq;
