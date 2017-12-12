@@ -10,7 +10,8 @@ title: Archive
         {% if date <= now %}
             {% assign currentDate = post.date | date: "%Y" %}
             {% if currentDate != myDate %}
-                {% unless forloop.first %}</ul>{% endunless %}
+                 <!-- {% unless forloop.first %}</ul>{% endunless %} -->
+
                 <h1>{{ currentDate }}</h1>
                 <ul>
                 {% assign myDate = currentDate %}
