@@ -6,13 +6,13 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Azure Development
-tagline:          'Ricardo Niepel'
-description:      'Ricardo Niepel's personal blog about<br>Azure Application Development topics'
+title:            "Azure Development"
+tagline:          "Ricardo Niepel"
+description:      "Ricardo Niepels personal blog about<br>Azure Application Development topics"
 url:              http://azure-development.com/
 
 author:
-  name:           'Ricardo Niepel'
+  name:           "Ricardo Niepel"
   url:            http://azure-development.com/
 
 paginate:          2
