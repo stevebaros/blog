@@ -15,7 +15,10 @@ layout: null
    <email>{{ site.author.email }}</email>
  </author>
 
+ {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}    
  {% for post in site.posts %}
+ {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+ {% if date <= now %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
@@ -23,6 +26,7 @@ layout: null
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
+ {% endif %}
  {% endfor %}
 
 </feed>

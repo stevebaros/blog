@@ -5,16 +5,20 @@ layout: default
 <div class="post">
 <h1 class="tag-title">Tag: {{ page.tag }}</h1>
 <ul>
+{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}    
 {% for post in site.tags[page.tag] %}
-  {% if post.lang %}
-  <li lang="{{post.lang}}">
-  {% else %}
-  <li>
+  {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+  {% if date <= now %}
+    {% if post.lang %}
+    <li lang="{{post.lang}}">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+      {{ post.description }}
+      <!-- Tags: {{ post.tags | join: ", " }} -->
+    </li>
   {% endif %}
-  	<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-  	{{ post.description }}
-  	<!-- Tags: {{ post.tags | join: ", " }} -->
-  </li>
 {% endfor %}
 </ul>
 </div>
