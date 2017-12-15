@@ -39,6 +39,10 @@ The result is beautiful:
 
 You can find the full sample source code at <https://github.com/RicardoNiepel/azure-functions-end2end-monitoring>.
 
+> The sample is on C#, but there are also Application Insight SDKs for a long list of other languages/platform: Java, JavaScript, NodeJS, PHP, Python, Ruby...  
+> Take a look at [Developer analytics: languages, platforms, and integrations](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-platforms) to find the right SDK in your situation.  
+> The general idea of this sample can also be applied with the other Application Insight SDKs.
+
 There are several very important things to make this possible:
 
 ### Disable automatic Application Insights integration
