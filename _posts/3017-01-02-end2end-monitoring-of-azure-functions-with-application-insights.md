@@ -5,8 +5,7 @@ description: Azure Functions has direct integration with Application Insights bu
 tags: azure-functions application-insights
 ---
 
-As you already know, since April 6, 2017 Azure Functions has direct integration with Application Insights.
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-monitoring
+As you already know, since April 6, 2017 [Azure Functions has direct integration with Application Insights](https://docs.microsoft.com/en-us/azure/azure-functions/functions-monitoring).
 
 One of the already know issues is that dependencies that the function has to other services don't show up automatically.
 
@@ -23,7 +22,7 @@ Let's asume you have the following simple scenario:
     - Throws at 10% an Exception
 
 Currently you will only see the following:
-![an image alt text]({{ site.baseurl }}/images/appinsights_application_map_old.JPG "an image title")
+![an image alt text]({{ site.baseurl }}/public/image/appinsights_application_map_old.JPG "an image title")
 
 Also all telemtry is not correlated, so you cannot trace any event end-to-end.
 
@@ -32,9 +31,9 @@ But let's talk about what's possible today: if you really need an end-to-end mon
 
 The result is beautiful:
 
-!({{ site.baseurl }}/images/appinsights_application_map_new.JPG "Azure Functions End-to-End System Map")
+![End-to-End System Map]({{ site.baseurl }}/public/image/appinsights_application_map_new.JPG "Azure Functions End-to-End System Map")
 
-!({{ site.baseurl }}/images/appinsights_analytics_result.JPG "Azure Functions End-to-End Telemetry")
+![End-to-End Telemetry]({{ site.baseurl }}/public/image/appinsights_analytics_result.JPG "Azure Functions End-to-End Telemetry")
 
 ## Let's take a look at the source code
 
@@ -49,6 +48,12 @@ The first thing you need to ensure is, that the normal Application Insights inte
 The automatic integration uses the specific application setting key _"APPINSIGHTS_INSTRUMENTATIONKEY"_ - just don't use this one. I have used _"APPINSIGHTS_INSTRUMENTATIONKEY_CUSTOM"_ instead.
 
 > It is also possible to use two distinct Application Insights instances/keys - one for the automatic integration, one for the end-to-end monitoring.
+
+## Enable preview of Multi-role Application Map
+
+For seeing an Azure Functions End-to-End System Map you need to enable the preview feature of _"Multi-role Application Map"_:
+
+![Multi-role Application Map]({{ site.baseurl }}/public/image/appinsights_multi-role_application_map.JPG "Application Insights Multi-role Application Map")
 
 ### Setting Cloud_RoleName
 
