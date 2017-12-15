@@ -116,6 +116,12 @@ html, .paginatio {
   font-size: 3.25rem;
 }
 
+.sidebar-about h1 span {
+  transform: translateX(-50%);
+  margin: 0 50%;
+  display: inline-block;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
