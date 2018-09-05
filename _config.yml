@@ -10,7 +10,7 @@ permalink:        pretty
 # Setup
 title:            "Azure Development"
 tagline:          "Ricardo Niepel"
-description:      "Ricardo Niepel's personal blog about<br>Azure Application Development topics"
+description:      "Blog about lessons learned, best practices and guidelines at my day to day job as a Cloud Solution Architect spezialized at Azure Application Development"
 url:              http://azure-development.com/
 
 author:

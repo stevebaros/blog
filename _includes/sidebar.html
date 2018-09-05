@@ -2,7 +2,10 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1><span>{{ site.title }}</span></h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">
+        Ricardo Niepel's personal blog about<br>
+        Azure Application Development topics
+      </p>
     </div>
 
     <ul class="sidebar-nav">
@@ -31,23 +34,23 @@
     
       <!-- social buttons -->
       {% if site.twitter_username %}
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" style="text-decoration:none">
+      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener" style="text-decoration:none" title="Ricardo @ Twitter">
         <i class="fa fa-fw fa-twitter"></i>
       </a>
       {% endif %}
       {% if site.github_username %}
-      <a href="https://github.com/{{site.github_username}}" target="_blank" style="text-decoration:none">
+      <a href="https://github.com/{{site.github_username}}" target="_blank" rel="noopener" style="text-decoration:none" title="Ricardo @ GitHub">
         <i class="fa fa-fw fa-github"></i>
       </a>
       {% endif %}
       
       {% if site.linkedin_username %}
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" style="text-decoration:none">
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener" style="text-decoration:none" title="Ricardo @ LinkedIn">
         <i class="fa fa-fw fa-linkedin"></i>
       </a>
       {% endif %}
       {% if site.xing_username %}
-      <a href="https://www.xing.com/profile/{{ site.xing_username }}" target="_blank" style="text-decoration:none">
+      <a href="https://www.xing.com/profile/{{ site.xing_username }}" target="_blank" rel="noopener" style="text-decoration:none" title="Ricardo @ Xing">
         <i class="fa fa-fw fa-xing"></i>
       </a>
       {% endif %}

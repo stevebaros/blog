@@ -188,6 +188,9 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.content img, .content embed, .content object, .content video {
+  max-width: 100%;
+}
 
 /*
  * Reverse layout
