@@ -2,6 +2,8 @@
 #markdown:         kramdown
 #highlighter:      rouge
 
+excerpt_separator: <!--more-->
+
 # Permalinks
 permalink:        pretty
 
@@ -22,6 +24,7 @@ emailme:            https://twitter.com/RicardoNiepel
 
 github:
   repo:             https://github.com/RicardoNiepel/ricardoniepel.github.io
+#repository: RicardoNiepel/ricardoniepel.github.io
 
 tags:
 
@@ -45,9 +48,10 @@ kramdown:
 #sass:
   #style: :expanded # You might prefer to minify using :compressed
 
+ 
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
@@ -60,3 +64,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby  

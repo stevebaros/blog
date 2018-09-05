@@ -4,9 +4,9 @@ title: Archive
 ---
 
 <section class="archive-post-list">
-   {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}  
+   {% capture now %}{{'now' | date: '%s' | plus: 0}}{% endcapture %}  
    {% for post in site.posts %}
-        {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+        {% capture date %}{{post.date | date: '%s' | plus: 0}}{% endcapture %}
         {% if date <= now %}
             {% assign currentDate = post.date | date: "%Y" %}
             {% if currentDate != myDate %}

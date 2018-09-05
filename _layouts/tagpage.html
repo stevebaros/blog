@@ -6,9 +6,9 @@ layout: default
 <div class="post">
 <h1 class="tag-title">{{ page.title }}</h1>
 <ul>
-{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}    
+{% capture now %}{{'now' | date: '%s' | plus: 0}}{% endcapture %}    
 {% for post in site.tags[page.tag] %}
-  {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+  {% capture date %}{{post.date | date: '%s' | plus: 0}}{% endcapture %}
   {% if date <= now %}
     {% if post.lang %}
     <li lang="{{post.lang}}">

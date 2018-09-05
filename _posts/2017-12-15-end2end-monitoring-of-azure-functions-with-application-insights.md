@@ -9,6 +9,9 @@ As you already know, since April 6, 2017 [Azure Functions has direct integration
 
 One of the already know issues is that dependencies that the function has to other services don't show up automatically.
 
+But with some manual work, it's possible today!
+<!--more-->  
+
 ## Current limitations
 More importantly you are currently not able to have a full end-to-end monitoring experience if you chain multiple Azure Functions together e.g. per HTTP or queues.
 

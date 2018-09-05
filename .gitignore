@@ -37,5 +37,9 @@ nbproject
 validation-status.json
 validation-report.json
 
+# local jekyll files
+Gemfile.lock
+
 # Folders to ignore
 node_modules
+vendor

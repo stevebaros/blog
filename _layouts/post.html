@@ -16,7 +16,11 @@ layout: default
     {% endfor %}
     ]
   </span>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">
+    {{ page.date | date_to_string }}
+    • 
+    {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
+  </span>
   {{ content }}
 </div>
 
@@ -24,9 +28,9 @@ layout: default
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}  
+    {% capture now %}{{'now' | date: '%s' | plus: 0}}{% endcapture %}  
     {% for post in site.related_posts limit:3 %}
-      {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %}
+      {% capture date %}{{post.date | date: '%s' | plus: 0}}{% endcapture %}
       {% if date <= now %}
         {% if post.lang %}
         <li lang="{{ post.lang }}">
