@@ -13,6 +13,8 @@ I'm developing solution architectures each week, with my customers, using Azure 
 And unfortunately, in the past I've noticed more and more often that "Cloud Solution Architecture" stops before the level of implementation details.
 <!--more-->
 
+**Updated 12 Sep 2018**: Added [And what happens with Powerpoint?](#and-what-happens-with-powerpoint) and [Does a Cloud Solution Architect have to write code in order not to be a “Powerpoint Architect”?](#does-a-cloud-solution-architect-have-to-write-code-in-order-not-to-be-a-powerpoint-architect)
+
 ## Solution Architecture
 
 > What does "solution architecture" actually mean? For some organisations “solution architect” is simply a synonym for "software architect", whereas others have a specific role that focusses on designing an overall "solution" to a problem, but stopping before the level at which implementation details are discussed.
@@ -46,8 +48,11 @@ In my heart I am a software architect, and I think that is exactly what stands b
 
 In my point of view it is the same situation with all the other specializations:
 
-* "Cloud Solution Architect for Azure Infrastructure" > IT/Infrastructure/Network Architect
-* "Cloud Solution Architect for Azure Advanced Analytics & AI" > Data Architect
+Cloud Solution Architect for Azure Infrastructure
+  : IT/Infrastructure/Network Architect
+
+Cloud Solution Architect for Azure Advanced Analytics & AI
+  : Data Architect
 
 We all have one thing in common: we are spezialized in Azure, and we are deep technical in our area.
 
@@ -111,6 +116,62 @@ Something like [this](https://docs.microsoft.com/en-us/azure/architecture/refere
 Could then be visualized like this in a C4 container diagram:
 
 ![Azure-PlantUML - Highly scalable web application](http://www.plantuml.com/plantuml/png/dLLDRziu4Bq7o7-OzG8BBU3ORThJdkh8GJusTLpBtc9F1YNHCZSKgVB3hlFhEwH4MKwS8DcBDHhDcna-lXb_qOOeOqj-Ud9wyXiJ6RSvjOh3sfXA_pKSAh8T5CoiRMerLPaKXWepo6GvdB6Cg5nE6Aqe7yQVpwQS2BFuUZSiYJPKeMiPOpnXWgf15MhaT8KE63rQHQVeV7SbZtnMB6VQ79wWhL0ZObcMKZHz78yR4qDIegck4JEAIMEIhUbxKB7KfTJZz3sOv0SFdbTXtsbQ0z0OLTNROkFnv6s12IKgMxyQcnYfI47h-0ikqyRnTj0tIoqzH9sUt8t-lL_CbzzlvjVBkykhoydOUQTKQIaYfuO-z1RuwFtf_Ase8bqH_98mKN1K16O4PAM7hf4eB2S8kqqSfiDPjFKFZC5t-0D6qviMb4m7ayivn59H-FfF3EU3Zts8VtVVnfIp3VO3PaqXcOw0Y1mg9JSifnfcbybyPJbWRfTGmtRDiZKGp8CwrhQaEQoKB0EwxGdl9ifoWGNGyZqya98mICxTI-Qqfw6oAMSPtm7P4CP9odrMDnsmaWgut5By9UZ8ThwlbHy9oEkUTo1N0L0J-FJs8bm2XcKTZsFL-o1kWEYveiWvuJ2rgfAQmkQy3zVIzE5kbdGITsyu-k5U4EkTBoLfy1qHHje_N1lUW1kHqv-zkYsHupQ0vADxRQ-W1e2sHK6rOSXw7rRsyN478PLZ1fT6OR6lCrtHZAtmVE6hkoV9MOuqQY2WlQP2LkQgrpTOMcvOXPym4iFmc5ItpUytHgHQqrskUnvq7vzt60ih8yeQmmbEPYWRlEBnXGT-ktFAwiFd3nzWjjYNxAoEIAETDi4Dh6NhKwVUVX9kPTfC0bgzsaHBGpB-6pQVWlgL5Hfr9eepj0HI0uRe1usyU4Md97iebBGYhulCA6-cjXvG75tjqbpFvrD_q_k0TXfVYQa7v5c03rbEA2lMgMnsmRDqjydz15NQIRgym6vVWeKnFvBVTt5iK6QKvDgBOt_wa338VsgDxj04_pcEcJ0od3G0mXNkathTRXLpkiHujoF6zsvFFOLsnFCQkb7IK_I1Nb_4F-qsJEaH3fQBLc21XIkAB0ZwqxZpjz67iUyde0F-NnHqy6ycuPYIziLRMYuiuxdkh8zGSY-_9ZGS-oW2_o39RZbkW-js_OSlLEJu9_eB "Azure-PlantUML - Highly scalable web application")
+
+## And what happens with Powerpoint?
+
+Or to reframe this question:
+> Does a Cloud Solution Architect still need very simplified architecture visualizations?
+
+**Yes - of course!**
+
+Like every other architect in our and other industries, Cloud Solution Architects should be able to communicate on the same level as the their audience.  
+Thus also any architectural visualization and documentation has an intended audience.
+
+Something I am seeing a lot is the situation that Cloud Solution Architects have more meetings, discussions and presentations with senior executives as more traditional technical (software, IT, network, data) architects.  
+Thus it is still essential to be able to have the right abstractions for them to be able to present, discuss and defend solution architectures on this level.
+
+And in this situations it could be, that something like the [C4 model](https://c4model.com/) or the [“4+1” View Model of Software Architecture](http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf) is not the right thing to use.  
+But especially in this situations it is essential to have a clear understanding what these "boxes and lines" really means.
+
+On the other hand - if our audience are technical people - it should show this technical level and all the technical decisions that have already been made or are yet to be done.
+
+## Does a Cloud Solution Architect have to write code in order not to be a "Powerpoint Architect"?
+
+That is a very dangerous discussion - which I had with many people after the first version of this article.
+
+*Special thanks to all of them for the input they gave!*
+
+And it is also not so easy as the heading shouts it out.
+
+<dl>
+  <dt>Cloud Solution Architect for Azure Infrastructure</dt>
+  <dd>Does she/he writes code? Mmhhh...only if PowerShell scripts are code...</dd>
+  <dd>But writing Infrastructure as Code, deployment automation, chaos testing, using all these tools like code ARM templates, Ansible playbooks, Docker manifests, Spinnaker deployment plans, etc. seems reasonable</dd>
+
+  <dt>Cloud Solution Architect for Azure Advanced Analytics & AI</dt>
+  <dd>Same question applies...</dd>
+  <dd>But doing data engineering, automating data integration, automating data preparation, defining data models, conducting ML experiments, writing SQL/Gremlin queries and Spark streaming jobs, etc. seems reasonable  </dd>
+</dl>
+
+or for all
+
+<dl>
+  <dt>Cloud Solution Architects</dt>
+  <dd>choosing the right technologies, tools, script and programming languages</dd>
+  <dd>deciding the correct communication protocols and messaging patterns</dd>
+  <dd>determine the right performance and feature SKUs and manual/scaling requirements</dd>
+  <dd>gathering all requirements and defining business continuity and disaster recovery plans</dd>
+</dl>
+
+It's not really about writing source code - it's more about getting your hands dirty.
+
+I really like that Microsoft has redefined the CSA role last year into a deep technical role.  
+I also love to see this inside our personal Core Priorities we have:  
+**Customer Focus, Customers' Trusted Advisor, Customer Technical Enablement, Deep Technical Expertise, Technical Thought Leadership**.
+
+For our biggest and high potential customers, we as CSAs are - in each of our technical Azure spezializations - the **"Primary Local Tech Resource"**.
+
+*I think there is nothing left to add.*
 
 ## Feedback
 
