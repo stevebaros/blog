@@ -2,7 +2,7 @@
 
 Repo of my personal blog.
 
-I work at [Ham Apps and softwares Ltd](hamsoftug.com) for Application Development.
+I work at [Ham Apps and softwares Ltd](https://hamsoftug.com) for Application Development.
 But these are just my views, I don’t speak for the company.
 
 
