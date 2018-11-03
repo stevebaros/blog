@@ -8,30 +8,30 @@ excerpt_separator: <!--more-->
 permalink:        pretty
 
 # Setup
-title:            "Azure Development"
-tagline:          "Ricardo Niepel"
-description:      "Blog about lessons learned, best practices and guidelines at my day to day job as a Cloud Solution Architect spezialized at Azure Application Development"
-url:              http://azure-development.com/
+title:            "Personal Development"
+tagline:          "Steve Baros"
+description:      "Blog about lessons learned, best practices and guidelines in personal development"
+url:              https://stevebaros.me/
 
 author:
-  name:           "Ricardo Niepel"
-  url:            http://azure-development.com/
+  name:           "Stephen Barungi"
+  url:            https://stevebaros.me/
 
 paginate:          4
 google_analytics:  'UA-111249059-1'
 bing_seo:		       '6AB932E778FB7A41E5AE236F384FE718'
-emailme:            https://twitter.com/RicardoNiepel
+emailme:            https://twitter.com/stevebaros
 
 github:
-  repo:             https://github.com/RicardoNiepel/ricardoniepel.github.io
+  repo:             https://github.com/stevebaros/blog/
 #repository: RicardoNiepel/ricardoniepel.github.io
 
 tags:
 
-twitter_username:   RicardoNiepel
-github_username:    RicardoNiepel
-linkedin_username:  ricardo-niepel-623a7261
-xing_username:      Ricardo_Niepel
+twitter_username:   stevebaros
+github_username:    stevebaros
+linkedin_username:  stevebaros
+xing_username:      stevebaros
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
