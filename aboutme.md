@@ -8,4 +8,6 @@ title: About Me
 
 <blockquote class="full-width"><p>Software Engineer with a little bias on  Application Development</p></blockquote>
 
-I work at Hamsoft Uganda, but these are just my views, I don’t speak for the company.
+I work at Hamsoft Uganda, but these are just my views, I don’t speak for the company.<br/>
+
+My full resume can be found [here](https://stevebaros.github.io/about/) 
