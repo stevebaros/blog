@@ -17,9 +17,8 @@ or “You better study hard and find a good job, otherwise how to be rich like t
 Thinking back, we laugh at it now. But there is some truth to it. Why are we NOT rich, NOT wealthy, and do NOT have the financial independence we all talk so much about, but have NOT achieved for some elusive reason?
 
 The answer is simple; we have been conditioned to believe that studying as hard as possible and working inhumane hours are key indicators of our success. We have been conditioned to believe that saving and accumulating as much wealth as possible is the only way for us to be rich.
-
-We couldn’t be more wrong.
-
+<!--more-->
+We couldn’t be more wrong !.
 What we need to do, is to stop focusing on Wealth Accumulation, and instead focus on Wealth Creation. Here are 3 reasons why saving will never help you be rich:
 
 **1) The Battle Is Never In Your Favor**
