@@ -66,6 +66,37 @@
       {% endif %}
       
     </ul>
+    
+    <link href="https://marketing.hamsoftug.com/css/embedded.css" rel="stylesheet" type="text/css">
+<style>.subscribe-embedded-form{color: #333}.subscribe-embedded-form label{color: #555}</style>
+<div class="subscribe-embedded-form">
+<h2>Subscribe to our mailing list</h2>
+<p class="text-sm text-right">
+<span class="text-danger">*</span> indicates required</p>
+<form action="https://marketing.hamsoftug.com/lists/5be9b0a57f277/embedded-form-subscribe-captcha" method="POST" class="form-validate-jqueryz">
+<div class="form-group control-text">
+<label>Email<span class="text-danger">*</span>
+</label>
+<input id="EMAIL" placeholder="" value="" type="text" name="EMAIL" class="form-control required email ">
+</div>
+<div class="form-group control-text">
+<label>First name</label>
+<input id="FIRST_NAME" placeholder="" value="" type="text" name="FIRST_NAME" class="form-control ">
+</div>
+<div class="form-group control-text">
+<label>Last name</label>
+<input id="LAST_NAME" placeholder="" value="" type="text" name="LAST_NAME" class="form-control ">
+</div>
+<div class="form-button">
+<button class="btn btn-primary">Subscribe</button>
+</div>
+</form>
+</div>
+<script type="text/javascript" src="https://marketing.hamsoftug.com/assets/js/core/libraries/jquery.min.js">
+</script>
+<script type="text/javascript" src="https://marketing.hamsoftug.com/assets/js/plugins/forms/validation/validate.min.js">
+</script>
+<script>$.noConflict();jQuery( document ).ready(function( $ ) {$(".subscribe-embedded-form form").validate({rules:{EMAIL: {required: true,email: true,remote: "https://marketing.hamsoftug.com/lists/5be9b0a57f277/check-email" }}});});</script>
 
     <p class="sidebar-footer">&copy; {{ site.time | date: '%Y' }} under <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0) License</a></p>
   </div>
